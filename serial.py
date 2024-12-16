@@ -1,4 +1,7 @@
 # 1.hello
 # 2.test
-# 2.slicing
+# 3.slicing
+# 4.string function
+# 5.conditional_statement.py
+
 

@@ -18,3 +18,4 @@ print(str2[-1])
 print(str2[-3:])
 print(str2[:-6])
 print(str2[-len(str):-2])
+ 
