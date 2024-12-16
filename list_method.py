@@ -5,7 +5,7 @@ print(fruits)
 fruits.append("guava")         # it will append the guava at the end of the list.
 print(fruits)
 
-fruits.insert(2, "grape")       # insert method is used to add an element at the specified position
+fruits.insert(2, "grape")       # insert method is used to add an element at the specified position.
 print(fruits)
 
 fruits.sort()                   #sorts in ascending order(1,2,3) 
@@ -14,7 +14,7 @@ print(fruits)
 fruits.sort(reverse=True)       #sorts in descending order(3,2,1)
 print(fruits)
 
-fruits.reverse()                #reverses the list as it is
+fruits.reverse()                #reverses the list as it is.
 print(fruits)
 
 fruits.remove("cherry")        #it remove the first occurance of element in the list.
@@ -23,4 +23,5 @@ print(fruits)
 fruits.pop(2)                  #it remove the element at the specified index.
 print(fruits)
 
-
+foods=fruits.copy()            #it will copy the list to another.
+print(foods)
