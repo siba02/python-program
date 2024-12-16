@@ -14,7 +14,6 @@ else:
 
 
 mark=int(input("enter the mark: "))
-
 if(mark>=90):
     print("A+")
 elif(mark>=80 and mark<90):
