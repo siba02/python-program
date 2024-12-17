@@ -33,3 +33,6 @@ print(list)
 
 bikes.extend(fruits)
 print(bikes)
+
+bikes.clear()                 #remove all the elements from the list bike.
+print(bikes)
