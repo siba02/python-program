@@ -1,5 +1,6 @@
 fruits=["apple", "banana", "cherry", "mango", "orange", "pepper","cherry"]
        #   0,        1,        2,       3,          4,      5.
+bikes=["MT","KTM","RE","HERO"]
 print(fruits)
 
 fruits.append("guava")         # it will append the guava at the end of the list.
@@ -25,3 +26,10 @@ print(fruits)
 
 foods=fruits.copy()            #it will copy the list to another.
 print(foods)
+
+# Both the methods are same for join two lists.
+list=bikes+fruits
+print(list)
+
+bikes.extend(fruits)
+print(bikes)
