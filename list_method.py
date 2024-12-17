@@ -9,8 +9,8 @@ print(fruits)
 fruits.insert(2, "grape")       # insert method is used to add an element at the specified position.
 print(fruits)
 
-fruits.sort()                   #sorts in ascending order(1,2,3) 
-print(fruits)
+fruits.sort()
+print(fruits)                 #sorts in ascending order(1,2,3) 
 
 fruits.sort(reverse=True)       #sorts in descending order(3,2,1)
 print(fruits)
