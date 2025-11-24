@@ -7,6 +7,11 @@
 # 7.list_method.py
 # 8.tuple.py
 # 9.tuple_method.py
+#10.funcadd.py
+# 11.second/module.py
+# 12.ip.py
+# 13.latency.py
+
 
 
 
