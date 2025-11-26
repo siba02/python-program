@@ -1,0 +1,8 @@
+2025-11-25 15:12:47,413 - INFO - Calculator started
+2025-11-25 15:12:47,413 - ERROR - Calculator encountered an error: calculator() takes 0 positional arguments but 3 were given
+2025-11-25 15:15:46,686 - INFO - Calculator started with x=10, y=5, op='*'
+2025-11-25 15:15:46,686 - ERROR - Calculator encountered an error: calculator() takes 0 positional arguments but 3 were given
+2025-11-25 15:24:35,061 - INFO - Calculator started with 
+2025-11-25 15:25:08,864 - ERROR - Calculator encountered an error: could not convert string to float: 'python -u "d:\\python_workshops\\loggingcalculator.py"'
+2025-11-25 15:26:05,445 - INFO - Calculator started with x=10, y=5, op='*'
+2025-11-25 15:26:05,445 - ERROR - Calculator encountered an error: calculator() takes 0 positional arguments but 3 were given

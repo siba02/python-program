@@ -1,25 +1,12 @@
 import subprocess
 
-# Step 1: Define the IP list
-ip_list = [
-    "8.8.8.8",
-    "1.1.1.1",
-    "192.168.1.1",
-    "10.10.10.10"
-]
+mylist = ["8.8.8.8", "192.168.0.5"]
 
-# Step 2 & 3: Use loop + subprocess to ping each IP
-for ip in ip_list:
-    print(f"Pinging {ip} ...")
-
-    # Run ping command (Windows uses '-n 1')
-    result = subprocess.run(["ping", "-n", "1", ip],
-                            stdout=subprocess.PIPE,
-                            stderr=subprocess.PIPE,
-                            text=True)
-
-    # Check the result
-    if "TTL=" in result.stdout:
-        print(f"{ip} is reachable ✓\n")
-    else:
-        print(f"{ip} is NOT reachable ✗\n")
+def testip(mylist):
+    for i in mylist:
+        result = subprocess.run(["ping", "1", i], capture_output=True, text=True)
+        if result.returncode == 0:
+            print(f"{i} is reachable.")
+        else:
+            print(f"{i} is not reachable.")
+testip(mylist)
