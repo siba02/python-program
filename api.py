@@ -7,6 +7,8 @@ def get_random_joke():
         response = requests.get(url, timeout=5)
         response.raise_for_status()   # Raises an error if status code is not 200
 
+        
+
         data = response.json()        # Convert response to JSON
         return data
 
