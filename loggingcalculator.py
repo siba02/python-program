@@ -16,6 +16,6 @@ def logged_calculator(x, y, op):
         logging.error(f"Calculator encountered an error: {e}")
         return None
 
-
+10
 
 logged_calculator(10, 5,'*')
